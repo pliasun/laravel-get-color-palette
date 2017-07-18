@@ -1,0 +1,25 @@
+{
+    "name": "pliasun/laravel-get-color-palette",
+    "description": "Laravel Wrapper for `ksubileau/color-thief-php`. Grabs the dominant color or a representative color palette from an image. Uses PHP and GD or Imagick.",
+    "homepage": "https://github.com/pliasun/laravel-get-color-palette",
+    "keywords": ["laravel","laravel-get-color-palette","get-color-palette","color-palette","imagick","image-colors","color-thief","php", "gd"],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Alex Pliasun",
+            "email": "alexpliasun@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "ksubileau/color-thief-php": "^1.3",
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Pliasun\\LaravelGetColorPalette\\": "src"
+        }
+    }
+}
